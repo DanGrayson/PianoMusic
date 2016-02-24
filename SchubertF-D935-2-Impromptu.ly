@@ -149,14 +149,14 @@ lab4 sol4.( sib8-5) |
 %11-14
 sib4-4( lab sib)
 do2 mib,4-2( 
-do'4) do4.-5( reb8-5)
+do'4) do4.( reb8-5)
 do4-5 sib4.( do8)
 }
 
 
 %%%%%%%%%%%%%%%%%%%% GRUPPETTO POUR LA PARTITION : 15-16
 hautIAbPart = \relative do''' { \voiceOne
-sib4-4( \SCREXO #'(2.2 . 0) lab4-3 ^\turn do8.-5 [sib16] |
+sib4( \SCREXO #'(2.2 . 0) lab4 ^\turn do8. [sib16] |
 lab2) \break
 }
 
