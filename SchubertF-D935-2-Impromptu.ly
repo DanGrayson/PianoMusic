@@ -16,31 +16,22 @@
 %#(set-paper-size "a4")
  #(set-paper-size "letter")
  line-width = 190\mm
- oddHeaderMarkup  =  \markup \fill-line {
-  " " { \italic "♫  Franz Schubert: Impromptu in As-dur (D 935-2)  ♫" }  \fromproperty #'page:page-number-string }
- evenHeaderMarkup = \markup \fill-line {
-  \fromproperty #'page:page-number-string { \italic "♫  Franz Schubert: Impromptu in As-dur (D 935-2)  ♫" } " " }
- #(ly:set-option 'point-and-click #f)
+ commonheader = \markup \fill-line { "Schubert: Impromptu in A♭ Major" }
+ oddHeaderMarkup  = \commonheader
+ evenHeaderMarkup = \commonheader
 }
 
 \header {
- title = \markup \center-column { \fontsize #1.5 "Impromptu in As-dur" " " }
- subtitle = \markup { \fontsize #2.5 "D 935-2 (Opus 142 No 2.)" }
- composer = \markup \center-column { \fontsize #3 \bold "Franz Schubert" \small "(1797-1828)" "D 935 (Op. 142 No 2., 1827)" }
-% MUTOPIA
- mutopiatitle = "Impromptu in As-dur"
- mutopiacomposer = "SchubertF"
- mutopiapoet = ""
- mutopiaopus = "D.935 (Op. 142, No. 2)"
- mutopiainstrument = "Piano"
+ title = "Impromptu in A♭ Major"
+ instrument = "Piano"
+ composer = "Franz Schubert"
+ opus = "D. 935 (Op. 142, No. 2)"
  date = "1827"
  source = "Breitkopf & Härtel, 1888"
  style = "Romantic"
  copyright = "Public Domain"
  maintainer = "Ph. Raynaud"
  moreInfo = ""
- footer = "Mutopia-2007/12/29-1195"
- tagline = \markup { \override #'(box-padding . 1.0) \override #'(baseline-skip . 2.7) \box \center-column { \small \line { Sheet music from \with-url #"http://www.MutopiaProject.org" \line { \teeny www. \hspace #-1.0 MutopiaProject \hspace #-1.0 \teeny .org \hspace #0.5 } • \hspace #0.5 \italic Free to download, with the \italic freedom to distribute, modify and perform. } \line { \small \line { Typeset using \with-url #"http://www.LilyPond.org" \line { \teeny www. \hspace #-1.0 LilyPond \hspace #-1.0 \teeny .org } by \maintainer \hspace #-1.0 . \hspace #0.5 Reference: \footer } } \line { \teeny \line { This sheet music has been placed in the public domain by the typesetter, for details see: \hspace #-0.5 \with-url #"http://creativecommons.org/licenses/publicdomain" http://creativecommons.org/licenses/publicdomain } } } }
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -632,7 +623,7 @@ mib4 -1 \sustainOff \sustainOn mib -1 \sustainOff \sustainOn mib -1 \sustainOff 
 mib2 -1  \sustainOff \sustainOn \stemDown mib4 -1 \sustainOff \stemUp |
 mib4 -1 \sustainOn mib2 -1 |
 do4 -2 \sustainOff \sustainOn do2 -1  \sustainOff \sustainOn |
-do4 -2  \sustainOff \sustainOn ^\markup { { \italic \bold pp } { \italic first time } } do -2  \sustainOff \sustainOn mib! -1 \sustainOff \sustainOn |
+do4 -2  \sustainOff \sustainOn ^\markup { \dynamic pp \italic \small { 2nd } \hspace #0.1 \dynamic mf } do -2  \sustainOff \sustainOn mib! -1 \sustainOff \sustainOn |
 mib2 -1 \sustainOff
 }
 
