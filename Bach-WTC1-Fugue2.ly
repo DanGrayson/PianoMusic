@@ -126,7 +126,11 @@ ppl     = \markup{ \italic "poco più lento" }
       c4-1) c,4\rest c8\rest f'-3_. ef_.-2 d_.-1 |
       g,8\rest
       \footnote "A" #'(-1 . -4) "A:  Here is the first four-note Alpha motif."
-      af-2( g-\finger"1-2" f-1 g-2_.) f16-1( ef-2 f8-1_.) d-1_. | \break
+      af-2( g-\finger"1-2" 
+			   \footnote "*" #'(-1 . -3) "* : Break the difficult slur here?"
+			   f-1 g-2_.) f16-1( ef-2 
+						  \footnote "*" #'(-1 . -3) "* : ditto"
+						  f8-1_.) d-1_. | \break
 				% 9
       g8-2_. g8\rest g8\rest b-1_. c_--2 c16-2( b!-1 c8-2_.) g-1_. |
       af8.-1 g16\rest g8\rest a-1_. bf_--2 bf16-3( a!-2 bf8_.-3) f-1_. | \break
@@ -155,7 +159,7 @@ ppl     = \markup{ \italic "poco più lento" }
       b8-1 e\rest e\rest b-1_. c-1_- e\rest e\rest ef-1_. |
       d8_-_.-1 e\rest e\rest f-1~f e\rest e\rest f-1 | \break
 				% 27
-      ef-1 af!-\finger "1-2"( g-\finger "1-2" f-1 ef-2) d-1_. ef_.-2 f-3 |
+      ef-1 af!-2( g-\finger "1-2" f-1 ef-2) d-1_. ef_.-2 f-3 |
       b,8_.-1 c_.-1 \< d-2_. b!_.-1 \! b-1_-( \> c-2_.) \! e\rest c-1_. | \break
 				% 29
       f16-2 _\legato d-1 ef-2
@@ -206,15 +210,19 @@ ppl     = \markup{ \italic "poco più lento" }
       \slurUp
       c16-4( d-3 ef-2 d-3 c-1 bf!-2 af-3 g-4 f-5-.) bf'-2( af!-3 g-1 f-2 ef-3 d-1 c-2 | \break
 				% 23
-      bf16-3 c-2 d-1 c-2 bf-3 af-4 g-1 f-2 ef-3-.) af'-2( g-1 f-2 ef-3 d-1 c-2 bf-3 |
+      bf16-3 c-2 d-1 c-2 bf-3 af-4 g-1 f-2 ef-3-.) af'-2( g-1 f-2 ef-3 
+								       \footnote "%" #'(-1 . -4) "%: not flat, compare with measure 11"
+								       d-1 c-2 bf-3 |
       af16-4 bf-3 c-2 bf-3 af-4 g-1 f-2 ef-3 d-4-.) g'-1( f-2 ef-3 d-1 c-2 b-3 a-4 | \break
 				% 25
       g8-5) g8\rest g4\rest g16\rest g16-5( a-4 ^\icresc b-3 c-2 d-1 ef-3 f-2 |
-      g-1 f-4 af!-2 g-1 f-2 ef-3 d-1 c-2 b8-3) c16-1( ^\f b-2 c8_.-1) g_.-4 | \break
+      g-1 f-4 af!-2 g-1 f-2 ef-3 d-1 c-2 b8-3) 
+					       \footnote "*" #'(-1 . -4) "*: The fingering, starting here, has been heavily modified by Dan.  Samir should review it."
+					       c16-2( ^\f b-3 c8_.-2) g_.-5 | \break
 				% 27
       \slurDown
-      af!8---3 c16-1( b-2 c8_.-1) d_.-1 g,_--4 c16-1( b!-2 c8-.-1) d-.-1 |
-      f,16-4( g-3 af4---2 g16-1 f-2 ef4-3) g8\rest <ef' ef,>-.-1-5
+      af!8---4 c16-2( b-3 c8_.-2) d_.-1 g,_--5 c16-2( b!-3 c8-.-2) d-.-1 |
+      f,16-4( g-3 af4---2 g16-3 f-4 ef4-5) g8\rest <ef' ef,>-.-1-5
 				% 29
       \set doubleSlurs = ##t
       <d d,>8-1-5 <c c,>-1-5 <g' g,>-1-5 <g, g,>-1-5 <c c,>2-1-5( |
