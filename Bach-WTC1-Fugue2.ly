@@ -17,6 +17,7 @@
 
 fingeringUp   = { \override Fingering.direction = #UP   }
 fingeringDown = { \override Fingering.direction = #DOWN }
+date    = #(strftime "%Y-%m-%d" (localtime (current-time)))
 up      = { \change Staff = "upper" \stemDown \slurDown \tieDown \dynamicDown \fingeringDown \phrasingSlurDown }
 down    = { \change Staff = "lower" \stemUp   \slurUp   \tieUp   \dynamicUp   \fingeringUp   \phrasingSlurUp   }
 idim    = \markup { \italic "dim." }
@@ -37,7 +38,7 @@ ppl     = \markup{ \italic "poco più lento" }
   title = "Fuga II c-Moll a 3 voci - BWV 847"
   instrument = "Piano"
   composer = "J. S. Bach"
-  arranger = \markup { { \italic "annotation" } ": S. Golescu" }
+  arranger = \markup { { \italic "annotation" } ": S. Golescu, version " #(strftime "%Y-%m-%d" (localtime (current-time))) }
 }
 
 \score {
