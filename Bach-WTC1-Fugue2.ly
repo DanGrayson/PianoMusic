@@ -75,9 +75,8 @@ ppl     = \markup{ \italic "poco più lento" }
 	ef8-4-- ef16-5( _\mp d-4 ef8-5-.) bf-3-. c-4-- ef16-4( d-3 ef8-4-.) f-.-5 |
 	bf,---2 ef16-4( d-3 ef8-4-.) f-5-. af,16-2( bf-3 c4-4-- bf16-3 af-2 | \break
 				% 13
-	g16-1) \footnote "+" #'(-1 . 8) "+:  This long phrase is the reverse of the one in the bass in measure 9, almost."
-	ef-2( f-1 _\icresc g-2 af-3 bf-4 c-1 d-2 ef-3 d-2 c-1 d-2 ef-3 f-1 g-2 a-3 |
-	bf-4) f,-1( g-2 _\icresc af!-3 bf-4 c-1 d!-2 e-3 f-4 ef-3 d-2 ef-3 f-1 g-2 a-3 b-4 | \break
+	g16-1) ef-2( f-1 _\icresc g-2 af-3 bf-4 c-1 d-2 ef-3 d-2 c-1 d-2 ef-3 f-1 g-2 a-3 |
+	bf-4) f,-1( g-2 _\icresc af-3 bf-4 c-1 d!-2 e-3 f-4 ef-3 d-2 ef-3 f-1 g-2 a-3 b-4 | \break
 				% 15
 	c8-5) b16-4( \mf a-3 g-2 f!-1 ef-4 d-3 c8-2) ef-5( d-5 c-4 |
 	bf8-3) a-3( bf-4 c-.-5) fs,!-4-. _\idim g-4-. a!-5-. fs!-4-. | \break
@@ -88,10 +87,10 @@ ppl     = \markup{ \italic "poco più lento" }
 	d8\rest a16-4-. g-3-. a8-.-4 b\rest b\rest b16-4-. a-.-3 b8-.-4 b\rest |
 	b8\rest c16-5( b-4 c8-5-.) g-.-1 af-2-- c16-4( b!-3 c8-.-4) d-.-5 | \break
 				% 21
-	g,8-4-- c16-5( b-4 c8-5-.) d-.-5 f,16-3( g-4 af4---5 g16-4 f-3 |
-	ef8-2-.) c'16-5( _\p b-4 c8-5-.) g-.-3 af8.-4 d16\rest d8\rest a-.-5 | \break
+	g,8-4-- c16-5( b-4 c8-5-.) d-.-5 f,16-3( g-4 af4-5 g16-4 f-3 |
+	ef8-2-.) c'16-5( _\p b-4 c8-5-.) g-.-3 af8.-4 d16\rest d8\rest a-.-4 | \break
 				% 23
-	bf8---4 bf16-5( a-4 bf8-5-.) f-.-3 g8.-4 b16\rest b8\rest g-4 ~ |
+	bf8---5 bf16-5( a-4 bf8-5-.) f-.-3 g8.-4 b16\rest b8\rest g-4 ~ |
 	g8 af16-3( bf-4 c-5 b-4 c-5 \footnote "+" #'( 2 . 7 ) "+  option: end the slur on this note" af-3 f2-4) ~ | \break
 				% 25
 	f8 d'16-5( c-4 d8-5-.) f,-.-3 ef-2-- ef'16-5( d-4 ef8-.-5) g,-3-. |
@@ -101,7 +100,7 @@ ppl     = \markup{ \italic "poco più lento" }
 	g-5-.) f16-4( ef-3 _\pocorit f8-4-.) d-.-2 af'---5( g-5-.) s\fermata a-4-. | \break
 				% 29
 	b8-.-5 ^\ppl c-.-5 f,16-5( ef-4 d-3 c-1) c8-1 c'16-5( b!-4 c8-5-.) g-.-2 |
-	af!8---3 c16-4( b-3 c8-.-4) <af! b! d>-2-3-5-. g---2 c16-5( b!-4 c8-.-5) d-.-5 |
+	af!8---2 c16-4( b-3 c8-.-4) <af! b! d>-2-3-5-. g---2 c16-5( b!-4 c8-.-5) d-.-5 |
 	f,16-3( g-4 af4-5-- g16-5 f^\finger "4-5" e2-4 \fermata) \bar "|." |
     }
   }
@@ -127,11 +126,7 @@ ppl     = \markup{ \italic "poco più lento" }
       c4-1) c,4\rest c8\rest f'-3_. ef_.-2 d_.-1 |
       g,8\rest
       \footnote "A" #'(-1 . -4) "A:  Here is the first four-note Alpha motif."
-      af-2( g-\finger"1-2" 
-			   \footnote "*" #'(-1 . -3) "* : Break the difficult slur here?"
-			   f-1 g-2_.) f16-1( ef-2 
-						  \footnote "*" #'(-1 . -3) "* : ditto"
-						  f8-1_.) d-1_. | \break
+      af-2( g-1) f-1( g-2_.) f16-1( ef-2 f8-1_.) d-1_. | \break
 				% 9
       g8-2_. g8\rest g8\rest b-1_. c_--2 c16-2( b!-1 c8-2_.) g-1_. |
       af8.-1 g16\rest g8\rest a-1_. bf_--2 bf16-3( a!-2 bf8_.-3) f-1_. | \break
@@ -146,16 +141,16 @@ ppl     = \markup{ \italic "poco più lento" }
       d,8_--1 g16-1( fs-2 g8-1_.) a!_.-3 c,16-2( d-1 ef4_--2 d16-1 c-2 | \break
 				% 17
       bf8_.-1) c8\rest c16\rest d-1( e-2 _\pcr fs-3 g-4 a-1 bf8-2~bf16_.) e,!-1( f-2 g-1 |
-      a16-2 bf-3 c8-1~c16_.) fs,-1( g-2 a!-3 bf8-4) ef,!16-2( \mp d-1 ef8-2_.) g,-1_. | \break
+      a16-2 bf-3 c8-1~c16_.) fs,-2( g-1 a!-2 bf8-3) ef,!16-2( \mp d-1 ef8-2_.) g,-1_. | \break
 				% 19
-      af8-1_- f'16-2( ef-1 f8-2_.) a,-1_. bf_--1 g'16-2( f-1 g8-2_.) b,-2_. |
+      af8-2_- f'16-2( ef-1 f8-2_.) a,-1_. bf_--2 g'16-2( f-1 g8-2_.) b,-2_. |
       c16-1 \slurUp f-2( ^\f \down ef-2 d-3 c-1 bf!-2 af!-3 g-1 f8---4) \up af'-2( g-\finger"1-2" f-1 | \break
 				% 21
-      ef8_--2) d-1_. ef-1_. f-1_. b,-1_. _\idim c-1_. d-1_. b!-1_. |
+      ef8_--2) d-1_. ef-1_. f-1_. b,-1_. _\idim c-1_. d-2_. b-1_. |
       c8-1-. e8\rest e8\rest e-1_. f8-2_- f16-2( e!-1 f8-2_.) c_.-1 | \break
 				% 23
       d8.-1 e16\rest e8\rest d_.-1 ef-2 ef16-2( d-1 ef8-2_.) bf-1_. |
-      c2-1~c8 d16-2 ef-3 \footnote "*" #'(-1 . 10) "*:  Play this by pressing the F again and holding it through subsequent notes." f-4 ef-3 \footnote "*" #'(-1 . 10) "*:  ditto" f-4 d-2 | \break
+      c2-1~c8 d16-2 ef-3 \footnote "*" #'(-1 . 10) "*:  Play this by pressing the F again and holding it through subsequent notes." f-4 ef-3 f-4 d-2 | \break
 				% 25
       b8-1 e\rest e\rest b-1_. c-1_- e\rest e\rest ef-1_. |
       d8_-_.-1 e\rest e\rest f-1~f e\rest e\rest f-1 | \break
