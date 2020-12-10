@@ -115,7 +115,7 @@ ppl     = \markup{ \italic "poco più lento" }
       \voiceThree \dynamicUp
 				% 1
       bf8\rest \mp c16_2( b_3 c8-._2) g-._5 af--_4 c16_2( b_3 c8-._2) d-._1 |
-      g,8_-_5      c16_2( b_3 c8-._2) d-._1 f,16_4( g_3 af4_2-- g16_3 f_4 | \break
+      g,8_-_5      c16_2( b_3 c8-._2) d-._1 f,16_4( g_3 af4_2 g16_3 f_4 | \break
 				% 3
       ef16_5) c'_1 \p _\qlegato( b_2 a_3 g_1 f!_2 ef_3 d_4 c8_5_-) ef'_2( d_1 c_2 |
       bf!8_3_-) a_3( bf_2 c_1_-) fs,_4 g_2( a!_1 fs_3 | \break
@@ -202,7 +202,7 @@ ppl     = \markup{ \italic "poco più lento" }
       ef8-2) d\rest d\rest e-5( f) f,-2( ef-3 d-4) | \break
 				% 21
       \stemUp
-      d'8\rest af-2( g-3 f-4 g-3) f16-2( ef-3 f8-.-2) g-.-1 |
+      d'8\rest af-1( g-2 f-3 g-1) f16-2( ef-3 f8-.-2) g-.-1 |
       \slurUp
       c16-4( d-3 ef-2 d-3 c-1 bf!-2 af-3 g-4 f-5-.) bf'-2( af!-3 g-1 f-2 ef-3 d-1 c-2 | \break
 				% 23
