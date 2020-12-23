@@ -60,12 +60,12 @@ ppl     = \markup{ \italic "poco più lento" }
 	b1\rest |
 				% 3
 	bf8\rest g'16-4 \mp ( fs-3 g8-4-. ) c,-1-. ef---2 g16-4 ( fs!-3 g8-4-. ) a-5-. |
-	d,8-1-- g16-4( fs-3 g8-4-.) a-5-. c,16-1( d-2 ef4-3-- d16-2 c-1 | \break
+	d,8-1-- g16-4( fs-3 g8-4-.) a-5-. c,16-1( d-2 ef4-3 d16-2 c-1 | \break
 				% 5
 	bf8-2) ef16-5( _\p d-4 ef8-5-.) g,8-1-. af-2-- f'16-5( ef-4 f8-5-.) a,-1-. |
-	bf8-2-- g'16-5( f!-4 g8-5-.) b,-.-1 c---2 d16-3( ef-4 f4-5--) ~ |
+	bf8-2-- g'16-5( f!-4 g8-5-.) b,-.-1 c---2 d16-3( ef-4 f4-5 ~ |
 				% 7
-	f8 ef16-3( \mp d-2 c-1 bf!-4 af-3 g-2 f8-1--) af'-5( g-4 f-3 |
+	f8) ef16-3( \mp d-2 c-1 bf!-4 af-3 g-2 f8-1--) af'-5( g-4 f-3 |
 	ef8-2--) d-.-5 _\idim ef-.-5 f-.-5 b,-.-4 c-.-5 d-.-5 b!-.-4 | \break
 	\pageBreak
 				% 9
@@ -73,7 +73,7 @@ ppl     = \markup{ \italic "poco più lento" }
 	f8---5 f16-5( _\pcr e-4 f8-5-.) c-3-. d8.-4 af'16\rest af8\rest d,-5-. | \break
 				% 11
 	ef8-4-- ef16-5( _\mp d-4 ef8-5-.) bf-3-. c-4-- ef16-4( d-3 ef8-4-.) f-.-5 |
-	bf,---2 ef16-4( d-3 ef8-4-.) f-5-. af,16-2( bf-3 c4-4-- bf16-3 af-2 | \break
+	bf,---2 ef16-4( d-3 ef8-4-.) f-5-. af,16-2( bf-3 c4-4 bf16-3 af-2 | \break
 				% 13
 	g16-1) ef-2( f-1 _\icresc g-2 af-3 bf-4 c-1 d-2 ef-3 d-2 c-1 d-2 ef-3 f-1 g-2 a-3 |
 	bf-4) f,-1( g-2 _\icresc af-3 bf-4 c-1 d!-2 e-3 f-4 ef-3 d-2 ef-3 f-1 g-2 a-3 b-4 | \break
@@ -87,7 +87,7 @@ ppl     = \markup{ \italic "poco più lento" }
 	d8\rest a16-4-. g-3-. a8-.-4 b\rest b\rest b16-4-. a-.-3 b8-.-4 b\rest |
 	b8\rest c16-5( b-4 c8-5-.) g-.-1 af-2-- c16-4( b!-3 c8-.-4) d-.-5 | \break
 				% 21
-	g,8-4-- c16-5( b-4 c8-5-.) d-.-5 f,16-3( g-4 af4-5 g16-4 f-3 |
+	g,8-4-- c16-4( b-3 c8-4-.) d-.-5 f,16-3( g-4 af4-5 g16-4 f-3 |
 	ef8-2-.) c'16-5( _\p b-4 c8-5-.) g-.-3 af8.-4 d16\rest d8\rest a-.-4 | \break
 				% 23
 	bf8---5 bf16-5( a-4 bf8-5-.) f-.-3 g8.-4 b16\rest b8\rest g-4 ~ |
