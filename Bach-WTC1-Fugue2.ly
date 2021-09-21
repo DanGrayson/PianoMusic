@@ -38,7 +38,7 @@ ppl     = \markup{ \italic "poco più lento" }
   title = "Fuga II c-Moll a 3 voci - BWV 847"
   instrument = "Piano"
   composer = "J. S. Bach"
-  arranger = \markup { { \italic "annotation" } ": S. Golescu, version " #(strftime "%Y-%m-%d" (localtime (current-time))) }
+  arranger = \markup { { \italic "annotation" } ": S. Golescu; " { \italic "date printed"} ": " #(strftime "%Y-%m-%d" (localtime (current-time))) }
 }
 
 \score {
@@ -93,14 +93,14 @@ ppl     = \markup{ \italic "poco più lento" }
 	bf8---5 bf16-5( a-4 bf8-5-.) f-.-3 g8.-4 b16\rest b8\rest g-4 ~ |
 	g8 af16-3( bf-4 c-5 b-4 c-5 \footnote "+" #'( 2 . 7 ) "+  option: end the slur on this note" af-3 f2-4) ~ | \break
 				% 25
-	f8 d'16-5( c-4 d8-5-.) f,-.-3 ef-2-- ef'16-5( d-4 ef8-.-5) g,-3-. |
-	f8-2-- f'16-5( ef-4 f8-5-.) af,-.-3 g16-2-- f'-5( -\pocof ef-3 d-2 c-1 b-4 a-3 g-2 | \break
+	f8 d'16-5( c-4 d8-5-.) f,-.-4 ef-3-- ef'16-5( d-4 ef8-.-5) g,-4-. |
+	f8-3-- f'16-5( ef-4 f8-5-.) af,-.-3 g16-2-- f'-5( -\pocof ef-3 d-2 c-1 b-4 a-3 g-2 | \break
 				% 27
-	c8-5) f-.-5( ef-.-5 d-.-5) d\rest af-5( g-4 f-3 |
+	c8-4) f-.-5( ef-.-5 d-.-5) d\rest af-5( g-4 f-3 |
 	g-5-.) f16-4( ef-3 _\pocorit f8-4-.) d-.-2 af'---5( g-5-.) s\fermata a-4-. | \break
 				% 29
-	b8-.-5 ^\ppl c-.-5 f,16-5( ef-4 d-3 c-1) c8-1 c'16-5( b!-4 c8-5-.) g-.-2 |
-	af!8---2 c16-4( b-3 c8-.-4) <af! b! d>-2-3-5-. g---2 c16-5( b!-4 c8-.-5) d-.-5 |
+	b8-.-5 ^\ppl c-.-5 f,16-5( ef-4 d-3 c-1) c8-1 c'16-5( b!-4 c8-5-.) g-.-3 |
+	af!8---4 c16-4( b-3 c8-.-4) <af! b! d>-2-3-5-. g---2 c16-5( b!-4 c8-.-5) d-.-5 |
 	f,16-3( g-4 af4-5-- g16-5 f^\finger "4-5" e2-4 \fermata) \bar "|." |
     }
   }
@@ -152,7 +152,7 @@ ppl     = \markup{ \italic "poco più lento" }
       d8.-1 e16\rest e8\rest d_.-1 ef-2 ef16-2( d-1 ef8-2_.) bf-1_. |
       c2-1~c8 d16-2 ef-3 \footnote "*" #'(-1 . 10) "*:  Play this by pressing the F again and holding it through subsequent notes." f-4 ef-3 f-4 d-2 | \break
 				% 25
-      b8-1 e\rest e\rest b-1_. c-1_- e\rest e\rest ef-1_. |
+      b8-1 e\rest e\rest b-1_. c-2_- e\rest e\rest ef-2_. |
       d8_-_.-1 e\rest e\rest f-1~f e\rest e\rest f-1 | \break
 				% 27
       ef-1 af!-2( g-\finger "1-2" f-1 ef-2) d-1_. ef_.-2 f-3 |
@@ -161,7 +161,7 @@ ppl     = \markup{ \italic "poco più lento" }
       f16-2 _\legato d-1 ef-2
       \footnote "+" #'( 1 . -4) "+:  This starts a three note sequence in the middle voice that echoes the motif."
       c-1~c8 b-2 c4-1 e8\rest _\piuf e_.-1 |
-      f4-1 e8\rest f-1 _\pocorit f-1_- ef16-1( _\dcresc d-1 ef8-1_.) <f af>_.-2-1 |
+      f4-2 e8\rest f-1 _\pocorit f-1_- ef16-1 _\dcresc d-1 ef8-1_. <f af>_.-2-1 |
       <d b>8_--2-1 _\rit c\rest <d b>-2-1_- c\rest <c g>2-2-1 | \break
       }
     \\
@@ -212,9 +212,7 @@ ppl     = \markup{ \italic "poco più lento" }
       af16-4 bf-3 c-2 bf-3 af-4 g-1 f-2 ef-3 d-4-.) g'-1( f-2 ef-3 d-1 c-2 b-3 a-4 | \break
 				% 25
       g8-5) g8\rest g4\rest g16\rest g16-5( a-4 ^\icresc b-3 c-2 d-1 ef-3 f-2 |
-      g-1 f-4 af!-2 g-1 f-2 ef-3 d-1 c-2 b8-3) 
-					       \footnote "*" #'(-1 . -4) "*: The fingering, starting here, has been heavily modified by Dan.  Samir should review it."
-					       c16-2( ^\f b-3 c8_.-2) g_.-5 | \break
+      g-1 f-4 af!-2 g-1 f-2 ef-3 d-1 c-2 b8-3) c16-2( ^\f b-3 c8_.-2) g_.-5 | \break
 				% 27
       \slurDown
       af!8---4 c16-2( b-3 c8_.-2) d_.-1 g,_--5 c16-2( b!-3 c8-.-2) d-.-1 |
@@ -222,8 +220,8 @@ ppl     = \markup{ \italic "poco più lento" }
 				% 29
       \set doubleSlurs = ##t
       <d d,>8-1-5 <c c,>-1-5 <g' g,>-1-5 <g, g,>-1-5 <c c,>2-1-5( |
-      <c c,>1)( |
-      <c c,>1) \fermata |
+      <c c,>1) |
+      <c c,>1 \fermata |
       }
     \\
     {
@@ -257,7 +255,7 @@ ppl     = \markup{ \italic "poco più lento" }
 			       % 25
       s1 | s1 |
 			       % 27
-      s1 | s2 s8 \sustainOn s8 \sustainOff s8 s16 \sustainOn s \sustainOff |
+      s1 | s2 s8 \sustainOn s8 \sustainOff \sustainOn s8 \sustainOff s16 \sustainOn s \sustainOff |
 			       % 29
       s8 \sustainOn s8 \sustainOff \sustainOn 
       s8 \sustainOff \sustainOn s8 \sustainOff \sustainOn
